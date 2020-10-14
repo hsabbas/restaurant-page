@@ -1,1 +1,1 @@
-console.log("sup");
+(()=>{console.log("sup");const e=document.getElementsByClassName("tab");let t=e[0];function s(e){e.target.className+=" selected",t.classList.remove("selected"),t=e.target}!function(){for(let t=0;t<3;t++)e[t].addEventListener("click",s)}()})();
