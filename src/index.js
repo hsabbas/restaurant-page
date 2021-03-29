@@ -1,8 +1,9 @@
 console.log('sup');
+const content = document.getElementById('content');
 const tabs = document.getElementsByClassName('tab');
 let selected = tabs[0];
 
-function setTabListeners(){
+function createTabListeners(){
     for(let i = 0; i <3; i++){
         tabs[i].addEventListener('click', clickTab)
     }
@@ -14,4 +15,4 @@ function clickTab(e){
     selected = e.target;
 }
 
-setTabListeners();
+createTabListeners();
