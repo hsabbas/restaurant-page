@@ -49,8 +49,21 @@ html, body{
 
 #homepage{
     display: block;
+    flex: 1 1 auto;
     background-image: url(./images/pexels-waldemar-brandt-2290070.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    flex: 1 1 auto;
+}
+
+#review{
+    position: relative;
+    top: 50%;
+    left: 80%;
+    padding: 10px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    border-radius: 5%;
 }
